@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Bella! - Register</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+     <header>
+     	<nav>
+     		<ul>
+     			<li>
+     				<a href="index.html">Home</a>
+		           	<a href="register.html">Register</a>
+			        <a href="login.html">Login</a>
+		        </li>
+	        </ul>
+     	</nav>
+     </header>
+
+
+<h1> HEY HEY HEY</h1>
+
+  <div>
+	<form class="websform">
+
+		Frist Name <input type="text" name="First Name" required><br>
+		Middle Name <input type="text" name="Middle Name"><br>
+		Last Name <input type="text" name="Last Name" required><br>
+		Email <input type="Email" name="Email" required><br>
+		Phone Number <input class="websform"type="Phone" minlength="11" name="Phone Number" required><br>
+		Birthday <input type="date" name="Birthday" required> <br>
+		Password: <input type="password" name="password" minLength="3"><br>
+
+		Gender<br>
+		 <input type="radio" name="Gender" value="Female" required>Female<br>
+		 <input type="radio" name="Gender" value="Male" required>Male<br>
+		 <input type="radio" name="Gender" value="Other" required>Other<br>
+		Pet<br>
+		  <input type="checkbox" name="Pet" value="Cat(s)" >Cat(s)
+		  <input type="checkbox" name="Pet" value="Dog(s)" >Dog(s)
+		  <input type="checkbox" name="Pet" value="Other(s)" >Other(s)<br>
+
+		Children<br>
+		 <select>
+		 	<option selected disabled="true"> -Select-</option>
+		 	<option name="Children"value="More than one children" required> More than one children</option>
+		 	<option name="Children"value="One child" required> One child</option>
+		 	<option name="Children"value="No" required> No</option>
+		 </select><br><br>
+
+		 <input type="submit" name="Register" value="Register">
+		 <input type="reset" name="Reset" value="Reset">
+
+   </div>
+
+
+
+	</form>
+
+
+</body>
+</html>
